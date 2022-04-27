@@ -2,7 +2,6 @@ import {Button, styled, Typography} from '@mui/material'
 import SettingsIcon from '@mui/icons-material/Settings';
 import Add from '@mui/icons-material/Add';
 function App() {
-
   const BlueButton = styled(Button)(({theme}) => ({
     backgroundColor : "skyblue",
   color : "#888",
@@ -16,6 +15,7 @@ function App() {
     color : "white"
   }
   }))
+
 
   return (
     <div>
