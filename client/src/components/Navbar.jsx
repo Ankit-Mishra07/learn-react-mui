@@ -1,8 +1,12 @@
 import React from 'react'
-
+import {AppBar} from "@mui/material"
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <>
+    <AppBar>
+    Navbar
+    </AppBar>
+    </>
   )
 }
 
