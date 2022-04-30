@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <Box>
-      {/* navbar */}
+      <Navbar />
       <Stack direction="row" 
       spacing={2} justifyContent="space-between">
         <Sidebar />
